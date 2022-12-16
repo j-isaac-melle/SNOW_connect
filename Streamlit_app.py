@@ -17,7 +17,7 @@ streamlit.header('Check out our users:')
 #streamlit.dataframe()
 
 
-my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake001"])
+#my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake001"])
 
 #my_cur = my_cnx.cursor()
 
