@@ -5,7 +5,7 @@ import pandas
 
 streamlit.title('Air Canada Webpage')
 
-streamlit.header('Current Privileges: /n/n/n/n/n')
+streamlit.header('Current Privileges: ' + /n/n/n/n/n)
 streamlit.header('Roles with correct Privileges:/n/n/n/n/n')
 streamlit.header('Roles with invalid Naming:/n/n/n/n/n')
 streamlit.header('Roles with missing Privileges:/n/n/n/n/n')
