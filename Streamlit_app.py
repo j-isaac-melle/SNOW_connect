@@ -10,7 +10,7 @@ my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.co
 my_fruit_list = my_fruit_list.set_index('Fruit')
 #pick select list here for smothie creation: (list from index index declared)
 #manually adds avo and bana to list 
-fruits_selected = streamlit.multiselect("select a role:", list(my_fruit_list.index),['Avocado','Strawberries'])
+fruits_selected = streamlit.multiselect("select a role:", list(my_fruit_list.index))
 #hides the giant table 
 fruits_to_show = my_fruit_list.loc[fruits_selected]
 #display table on page (was my fruit list) now just fruits to show 
