@@ -14,7 +14,7 @@ fruits_selected = streamlit.multiselect("select a role:", list(my_fruit_list.ind
 #hides the giant table 
 fruits_to_show = my_fruit_list.loc[fruits_selected]
 #display table on page (was my fruit list) now just fruits to show 
-streamlit.dataframe(fruits_to_show)
+#streamlit.dataframe(fruits_to_show)
 #create the repeatable code block (called a function) function starts with def: and returns:
 
 
